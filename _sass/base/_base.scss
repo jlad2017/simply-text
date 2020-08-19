@@ -1,0 +1,47 @@
+/*
+ * @name: Base
+ * @description: All base styles
+ */
+
+/*
+ * =============================================================================
+ *                                   COLORS
+ * =============================================================================
+ */
+
+ body {
+    background-color: $base-background-color;
+ }
+
+ /* change highlighting color */
+mark {
+    background-color: $highlight-color;
+}
+
+ /* change default selection color */
+::-moz-selection { 
+    background-color: $selection-color; 
+    color: #fff; 
+} 
+
+::selection { 
+    background-color: $selection-color; 
+    color: #fff; 
+}
+
+/*
+ * =============================================================================
+ *                                   OTHER
+ * =============================================================================
+ */
+a {
+    color: black;
+    /* remove underlining from all links */
+    text-decoration: none;
+}
+
+/* change cursor */
+html, body, a {
+    cursor: url("../images/cursor.svg"), auto;
+}
+

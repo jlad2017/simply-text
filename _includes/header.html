@@ -1,0 +1,25 @@
+<header>
+    {% for item in site.data.intros %}
+        {% if page.url == item.url %}
+            <div class="intro"> {{ item.intro }} </div>
+        {% endif %}
+    {% endfor %}
+    <nav>
+        <ul>
+            {% for item in site.navigation %}
+                {% if page.url == item.url %}
+                    <li>
+                        <a href="{{ item.url }}" class="active"> {{ item.title }} </a>
+                    </li>
+                {% else %}
+                    <li>
+                        <a href="{{ item.url }}">
+                            <u>{{ item.title }}</u>
+                            &#8594
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

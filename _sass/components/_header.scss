@@ -1,0 +1,39 @@
+/*
+ * @name: Header
+ * @description: All header styles
+ */
+
+header {
+    width: 40%;
+    text-align: right;
+    position: absolute;
+    margin: ($spacer * 4) 0 $spacer $spacer;
+    
+    .intro {
+        margin: 10px 0 20px;
+        vertical-align: middle;
+    }
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    float: right;
+
+    /* remove bullets from navigation lists */
+    li {
+        list-style: none; 
+    }
+
+    a {
+        color: black;
+        margin-right: $spacer;
+    }
+
+    .active {
+        color: red;
+    }
+}
+
+

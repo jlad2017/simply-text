@@ -1,0 +1,9 @@
+# Site settings
+title: Janice Lee
+navigation: 
+  - title: Home
+    url: /
+  - title: Work
+    url: /work/
+  - title: Projects
+    url: /projects/

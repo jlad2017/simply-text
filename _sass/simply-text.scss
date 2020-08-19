@@ -1,0 +1,19 @@
+/*
+ * @name: Simply Text
+ * @description: The main scss file
+ */
+
+/* import variables */
+@import "variables";
+
+/* import base styles */
+@import "base/base";
+@import "base/typography";
+
+/* import layout styles */
+@import "layout/layout-index";
+
+/* import components */
+@import "components/header";
+
+

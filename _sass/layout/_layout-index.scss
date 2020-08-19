@@ -1,0 +1,15 @@
+/*
+ * @name: Layout -- Index
+ * @description: All layout settings and styles for index.html
+ */
+
+.main {
+    width: 50%;
+    float: right;
+    margin: ($spacer * 4) 0 $spacer;
+    // padding-left: $spacer;
+}
+
+.about {
+    max-width: 60%;
+}

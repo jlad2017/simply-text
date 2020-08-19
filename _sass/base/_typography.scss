@@ -1,0 +1,39 @@
+/*
+ * @name: Typography
+ * @description: All basic typography settings and styles
+ *
+ */
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter/Inter-Regular.woff) format("woff");
+}
+
+
+header {
+    font-family: $header-font-family, serif;
+    font-size: $header-font-size;
+    line-height: 112px;
+    letter-spacing: 0.022em;
+    font-weight: bold;
+}
+
+body {
+    font-family: $base-font-family, serif;
+    font-size: $base-font-size;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
+nav {
+    a {
+        font-family: $nav-font-family;
+        font-size: $nav-font-size;
+        letter-spacing: 0em;
+        text-transform: uppercase;
+    }
+
+    li {
+        line-height: 24px;
+    }
+}

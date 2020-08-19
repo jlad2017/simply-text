@@ -1,0 +1,24 @@
+/*
+ * @name: Variables
+ * @description: All variables
+ */
+
+/* default spacing unit */
+$spacer: 64px;
+
+ /* fonts */
+$sans-serif: "Inter", sans-serif;
+
+$header-font-family: $sans-serif;
+$nav-font-family: $sans-serif;
+$base-font-family: $sans-serif;
+
+$header-font-size: 80px;
+$nav-font-size: 24px;
+$base-font-size: 16px;
+
+/* colors */
+// $base-background-color: #f0ede8;
+$base-background-color: #f8f6f6;
+$highlight-color: #f7dc92;
+$selection-color: #476f30;
